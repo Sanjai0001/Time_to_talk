@@ -1,0 +1,230 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#main{
+    padding-left:20%;
+    padding-top: 5%;
+}
+#footer ul li{
+display:inline-flex;
+
+text-decoration: none ;
+}
+#footer li a{
+color: white;
+padding: 10px;
+}
+
+#card1 .card {
+border-radius: 50px;
+}
+
+#card1 img {
+border-radius: 50px;
+border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
+}
+#card1 button {
+border-radius: 20px;
+font-size: 14px;
+
+}
+
+#card1 button:hover {
+background-color:rgb(26, 177, 127) ;
+  }
+#search input{
+border-radius: 10px  10px 0 0px;
+}
+#search button{
+border-radius: 0px  0px 20px 20px;
+}
+.search_icon {
+margin-left: -8px;
+border-top-left-radius: 0;
+border-bottom-left-radius: 0;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+
+.search_bar {
+border-top-right-radius: 0;
+border-top-left-radius: 12px;
+border-bottom-left-radius: 12px;
+border-bottom-right-radius: 0;
+
+}
+
+.header h1{
+    font-family: 'Sono', sans-serif; 
+}
+#navbarSupportedContent{
+    font-family: 'Montserrat', sans-serif;
+    font-size:13px;
+    font-weight: bold;
+  }
+  .dropdown-menu .dropdown-item{
+    font-family: 'Montserrat', sans-serif;
+    font-size: smaller;
+  }
+  .search_bar{
+    font-family: 'Sono', sans-serif;
+  }
+
+  #main h2{
+    font-family: 'Sono', sans-serif;
+  }
+  #main p{
+    font-family: 'Montserrat', sans-serif;
+  }
+  #main2 h2{
+    font-family: 'Sono', sans-serif;
+  }
+  #main2 h5{
+    font-family: 'Sono', sans-serif;
+    font-weight: bold;
+  }
+
+  #main2 button{
+    font-family: 'Sono', sans-serif;
+  }
+
+
+  #footer h3{
+    color:rgb(26, 177, 127);
+   
+    position: absolute;
+    font-family: 'Sono', sans-serif; 
+    background-color: white;
+    border-radius: 20px;  
+  }
+#contact{
+ 
+    font-family: 'Sono', sans-serif; 
+}
+#down{
+   
+    font-family: 'Sono', sans-serif; 
+}
+
+#footer a{
+    text-decoration: none;
+}
+
+#footer #submit{
+    font-family: 'Sono', sans-serif; 
+    color: rgb(26, 177, 127);
+     font-weight: bold;
+     font-size: 20px;
+}
+#footer #Email{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+#footer  .icon li{
+  display:inline-flex;
+  background-color: #076dc6;
+  text-decoration: none ;
+  border-radius: 100px;
+  }
+  /* #search{
+    border: 2px solid;
+    border-radius: 20px;
+    top:125px;
+    padding: 20px;
+    position:relative;
+    width: 80%;
+  } */
+  #main h2{
+  background-color:#f0f8ff; 
+  display:inline; 
+  border-radius: 20px;
+  padding:3px;
+  }
+
+ #main2 h2{
+  background-color:#f0f8ff; 
+  display:inline; 
+  border-radius: 20px;
+  padding:5px;
+  }
+
+  #box{
+    position: relative;
+    height:200px;
+    
+}
+#submit{
+    margin-right: 100px;
+}
+
+#box #submit{
+  color: white;
+  border-radius:0 0 10px  10px ;
+}
+
+.header .nav-item a:hover{
+  color: #076dc6;
+  }
+  
+.header .nav-link{
+    color:white;
+    }
+  
+  .header #nav1 {
+      color: #076dc6;
+  }
+
+  body{
+    cursor: pointer;
+  }
+  #social-icon  a{
+    background-color: #076dc6;
+    color: #076dc6;
+    width: 50px;
+    height: 50px;
+    float: right;   
+  padding-top: 25px;
+  padding-left: 10px;
+  border-radius: 30px;
+  text-decoration: none;
+  opacity:0 ;
+   }
+  #social-icon {
+  text-decoration: none;
+   position: absolute;
+  bottom:5px;
+   right:5px;
+  
+  }
+  #social-icon ul{
+   
+    list-style-type: none;
+}
+  
+#main2 .card:hover #social-icon a{
+    opacity: 1;
+    transition: 1s;
+    bottom: 10px;
+    margin-bottom: 40px;
+  }
+ 
+  #footer  #submit{
+    background-color:#076dc6;
+}
+
+
+#footer  #submit:hover{
+ background-color:rgb(26, 177, 127);
+}
+#footer  .icon li:hover{
+background-color: rgb(26, 177, 127);
+
+
+}
+#footer1{
+padding-top: 8%;
+}
+

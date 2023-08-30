@@ -1,0 +1,280 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+#main {
+    padding-top: 50px;
+}
+#bage{
+    padding-left:60%;
+}
+
+
+#footer  .icon li{
+display:inline-flex;
+background-color: #076dc6;
+text-decoration: none ;
+border-radius: 100px;
+}
+
+#footer ul li{
+  display:inline-flex;
+  text-decoration: none ;
+  }
+
+#footer li a{
+color: white;
+padding: 10px;
+}
+#search input{
+border-radius: 20px  20px 0 0px;
+}
+#search button{
+border-radius: 0px  0px 20px 20px;
+}
+#card1{
+padding-top: 8%;
+}
+.search_icon {
+margin-left: -8px;
+border-top-left-radius: 0;
+border-bottom-left-radius: 0;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+
+.search_bar {
+border-top-right-radius: 0;
+border-top-left-radius: 12px;
+border-bottom-left-radius: 12px;
+border-bottom-right-radius: 0;
+
+}
+.header h1{
+    font-family: 'Sono', sans-serif; 
+}
+#navbarSupportedContent{
+    font-family: 'Montserrat', sans-serif;
+    font-size:13px;
+    font-weight: bold;
+  }
+  .dropdown-menu .dropdown-item{
+    font-family: 'Montserrat', sans-serif;
+    font-size: smaller;
+  }
+  .search_bar{
+    font-family: 'Sono', sans-serif;
+  }
+  #main h1{
+    font-family: 'Sono', sans-serif; 
+  }
+  #play a{
+    color: rgb(26, 177, 127);
+  }
+  #clock{
+    color: rgb(26, 177, 127);
+  }
+  #main #span{
+    color: black;
+    font-family: 'Sono', sans-serif; 
+  }
+  #bage{
+    font-family: 'Sono', sans-serif; 
+  }
+  #main h2{
+    font-family: 'Sono', sans-serif; 
+    font-weight: bolder;
+  }
+  #main p{
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  #profile{
+   border: 1px solid;
+   border-radius:60px;
+   
+  }
+  
+#card5 h1{
+  font-family: 'Sono', sans-serif; 
+}
+#card5 .card{
+  background-color: #f0f8ff;
+}
+#card5 .card h6{
+  font-family: 'Sono', sans-serif; 
+  font-weight: bolder;
+}
+#card5 .card p{
+  font-family: 'Montserrat', sans-serif;
+}
+#card5 .row i{
+color:rgb(26, 177, 127);
+}
+#card5 h5{
+  color: rgb(26, 177, 127);
+  font-family: 'Sono', sans-serif;
+}
+#footer h3{
+  color:rgb(26, 177, 127);
+  
+  
+  position: absolute;
+  font-family: 'Sono', sans-serif; 
+  background-color: white;
+  border-radius: 20px;  
+}
+
+#contact{
+  
+  font-family: 'Sono', sans-serif; 
+}
+#down{
+ 
+  font-family: 'Sono', sans-serif; 
+}
+
+#footer a{
+  text-decoration: none;
+}
+
+#footer #submit{
+  font-family: 'Sono', sans-serif; 
+  color: rgb(26, 177, 127);
+   font-weight: bold;
+   font-size: 20px;
+}
+#footer #Email{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+#profile{
+  margin-left: 40%;
+  padding: 20px;
+}
+
+#profile .icon1 a{
+  text-decoration: none;
+ padding: 15px;
+ padding-top: 25px;
+}
+
+
+/* #search{
+  border: 2px solid;
+  border-radius: 20px;
+  top:125px;
+  padding: 20px;
+  position:relative;
+  width: 80%;
+} */
+#search input{
+  border-radius: 20px  20px 0 0px;
+  }
+  #search button{
+  border-radius: 0px  0px 20px 20px;
+  }
+
+  #main h1{
+    background-color:#f0f8ff; 
+    display:inline; 
+    border-radius: 20px;
+    padding:3px;
+  }
+
+  
+  #card5 h1{
+    background-color:#f0f8ff; 
+    display:inline; 
+    border-radius: 20px;
+    padding:3px
+}
+
+#search input{
+  border-radius: 10px  10px 0 0px;
+  }
+  #search button{
+  border-radius: 0px  0px 20px 20px;
+  }
+
+#form h2{
+  background-color:#f0f8ff; 
+  display:inline; 
+  border-radius: 20px;
+  padding:3px  
+}
+
+#box{
+  position: relative;
+  height:200px;
+  
+}
+#submit{
+  margin-right: 100px;
+}
+
+#box #submit{
+color: white;
+border-radius:0 0 10px  10px ;
+}
+.header .nav-item a:hover{
+  color: #076dc6;
+  }
+  
+  .header .nav-link{
+    color:white;
+    }
+  
+    .header #nav1 {
+      color: #076dc6;
+      }   
+
+      body{
+        cursor: pointer;
+      }
+      #footer  #submit{
+        background-color:#076dc6;
+   }
+  
+
+   #footer  #submit:hover{
+     background-color:rgb(26, 177, 127);
+}
+#footer  .icon li:hover{
+    background-color: rgb(26, 177, 127);
+
+    
+}
+
+#card5 #cd1:hover{
+  border: 1px solid rgb(26, 177, 127);
+  box-shadow: 10px 10px 10px 10px lightgrey;
+  background-color: white;
+  transition: 1s;
+  
+  }
+ 
+  #card5 #cd2:hover{
+   border: 1px solid rgb(26, 177, 127);
+   box-shadow: 10px 10px 10px 10px lightgrey;
+   background-color: white;
+   transition: 1s;
+   
+   }
+  
+ 
+   #card5 #cd3:hover{
+     border: 1px solid rgb(26, 177, 127);
+     box-shadow: 10px 10px 10px 10px lightgrey;
+     background-color: white;
+     transition: 1s;
+     
+     }
+     #footer1{
+      padding-top: 8%;
+    }
+    
+    
+    
